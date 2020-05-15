@@ -16,4 +16,4 @@ Rayann Bristol 816013958
 Shania Harold 816006213
 
 
-This app was developed to make the preperation of claim forms easier for DCIT tutors.
+This app was developed to make the preparation of claim forms easier for DCIT tutors.
