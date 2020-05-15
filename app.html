@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Project</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <body>
+    
+    <nav class="nav-extended blue">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Tutor Claims App</a>
+        <ul id="nav-mobile" class="right">
+          <li><a href="#" onclick="logout()" >Log out</a></li>
+        </ul>       
+      </div>
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab"><a class="active" href="#todo">Courses</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+
+  <section id="todo" class="col s12 container">
+
+  <div class="card" >
+    <div class="card-content">
+      <span class="card-title">Add Course</span>
+      <form name="addForm">
+        <div class="input-field">
+          <input type="text" name="addText" placeholder="" class="materialize-textarea"></textarea>
+          <label for="addText">Date(dd/mm/yyyy)-Course Code-Period of Contact Hours</label>
+        </div>
+        <input class="btn white-text" type="submit" value="SAVE" />
+      </form>
+    </div>
+  </div>
+
+  <ul class="collection with-header" id="result"></ul>
+  <p id="ptest"></p>
+  <h1>Claims Form</h1>
+  <p id="dp"></p>
+  <table id="claimstable"><thead>
+              <tr>
+                      <th>DATE</th>
+                      <th>COURSE CODE</th>
+                      <th>PERIOD OF CONTACT HOURS</th>
+                      <th>NO. OF CONTACT HOURS</th>
+                  </tr>
+          </thead>
+          <tbody id="cform"></tbody>
+  </table>
+  
+
+
+ </section>
+    
+
+    <script src="util.js"></script>
+
+    <script src="app.js"> </script>
+    
+  </body>
+</html>
