@@ -8,8 +8,11 @@
 Group Members
 ```
 Celeste Williams 816014155
+
 Danielle Charles 816017229
+
 Rayann Bristol 816013958
+
 Shania Harold 816006213
 
 
